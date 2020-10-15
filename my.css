@@ -1,0 +1,209 @@
+#pagination .prev-post .label, #pagination .next-post .label {
+    color: #090909;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+
+#pagination .prev_info, #pagination .next_info {
+    color: #090909;
+    font-weight: 500;
+}
+
+
+#pagination img.prev-cover,
+#pagination img.next-cover {
+display: none !important;
+}
+
+#pagination.pagination-post {
+  margin: 2rem 0 !important;
+  background: #0000;
+}
+
+
+#pagination .pagination-info {
+  position: absolute;
+  top: 50%;
+  padding: 1rem 2rem;
+  width: 100%;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+
+#pagination.pagination-post {
+    margin: 2rem 0 !important;
+}
+#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_post>#post {
+    background: rgba(255,255,255,.3);
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+	background-color: rgba(255, 255, 255, 1.0); 
+
+/*
+
+    background-color: rgba(38, 227, 26, 0.15); 
+
+*/
+
+}
+
+
+#recent-posts > 
+.recent-post-item:hover {
+    height: 102px;
+	animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: my_custom1;
+
+}
+
+table {
+
+    display: table;
+}
+
+
+#recent-posts > 
+.recent-post-item {
+    height: 102px;
+/*
+	animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: my_custom;
+*/
+}
+
+.post_cover {
+    height: 102px;
+	animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: my_custom;
+}
+
+@keyframes my_custom1 {
+	0% {
+		box-shadow: 0 0 4px #ca00ff
+	}
+
+	25% {
+		box-shadow: 0 0 16px #00b5e5
+	}
+
+	50% {
+		box-shadow: 0 0 4px #00f
+	}
+
+	75% {
+		box-shadow: 0 0 16px #b1da21
+	}
+
+	100% {
+		box-shadow: 0 0 4px red
+	}
+}
+@keyframes my_custom {
+	from {
+		box-shadow: 0 0 20px var(--primary-color,#08CB39),inset 0 0 15px var(--primary-color,#08CB39),0 1px 0 var(--primary-color,#08CB39)
+	}
+
+	to {
+		box-shadow: 0 0 20px var(--primary-color,#08D6E8),inset 0 0 10px var(--primary-color,#08D6E8),0 1px 0 var(--primary-color,#08D6E8)
+	}
+}
+@keyframes myflash {
+	from {
+		border-color: transparent
+	}
+
+	to {
+		border-color: var(--primary-color,#881B12)
+	}
+}
+
+
+#web_bg {
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(247, 149, 51, 0.1) 0,
+    rgba(243, 112, 85, 0.1) 15%,
+    rgba(239, 78, 123, 0.1) 30%,
+    rgba(161, 102, 171, 0.1) 44%,
+    rgba(80, 115, 184, 0.1) 58%,
+    rgba(16, 152, 173, 0.1) 72%,
+    rgba(7, 179, 155, 0.1) 86%,
+    rgba(109, 186, 130, 0.1) 100%
+  );
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(247, 149, 51, 0.1) 0,
+    rgba(243, 112, 85, 0.1) 15%,
+    rgba(239, 78, 123, 0.1) 30%,
+    rgba(161, 102, 171, 0.1) 44%,
+    rgba(80, 115, 184, 0.1) 58%,
+    rgba(16, 152, 173, 0.1) 72%,
+    rgba(7, 179, 155, 0.1) 86%,
+    rgba(109, 186, 130, 0.1) 100%
+  );
+  background: -o-linear-gradient(
+    0deg,
+    rgba(247, 149, 51, 0.1) 0,
+    rgba(243, 112, 85, 0.1) 15%,
+    rgba(239, 78, 123, 0.1) 30%,
+    rgba(161, 102, 171, 0.1) 44%,
+    rgba(80, 115, 184, 0.1) 58%,
+    rgba(16, 152, 173, 0.1) 72%,
+    rgba(7, 179, 155, 0.1) 86%,
+    rgba(109, 186, 130, 0.1) 100%
+  );
+  background: -ms-linear-gradient(
+    0deg,
+    rgba(247, 149, 51, 0.1) 0,
+    rgba(243, 112, 85, 0.1) 15%,
+    rgba(239, 78, 123, 0.1) 30%,
+    rgba(161, 102, 171, 0.1) 44%,
+    rgba(80, 115, 184, 0.1) 58%,
+    rgba(16, 152, 173, 0.1) 72%,
+    rgba(7, 179, 155, 0.1) 86%,
+    rgba(109, 186, 130, 0.1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(247, 149, 51, 0.1) 0,
+    rgba(243, 112, 85, 0.1) 15%,
+    rgba(239, 78, 123, 0.1) 30%,
+    rgba(161, 102, 171, 0.1) 44%,
+    rgba(80, 115, 184, 0.1) 58%,
+    rgba(16, 152, 173, 0.1) 72%,
+    rgba(7, 179, 155, 0.1) 86%,
+    rgba(109, 186, 130, 0.1) 100%
+  );
+  
+  
+}
+}
