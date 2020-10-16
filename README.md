@@ -29,3 +29,14 @@ inject:
   - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yanhuacuo/blog-css@1.0/my.css">
   - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yanhuacuo/blog-css@1.0/font.css">  
 ``````
+
+
+Mathjax实现：
+
+``````
+npm uninstall hexo-renderer-marked --save
+npm install hexo-renderer-kramed --save
+npm uninstall hexo-math --save
+npm install hexo-renderer-mathjax --save
+``````
+
