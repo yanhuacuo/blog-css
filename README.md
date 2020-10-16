@@ -31,7 +31,7 @@ inject:
 ``````
 
 
-Mathjax实现：
+# Mathjax实现：
 
 ``````
 npm uninstall hexo-renderer-marked --save
@@ -40,7 +40,7 @@ npm uninstall hexo-math --save
 npm install hexo-renderer-mathjax --save
 ``````
 
-https://github.com/yanhuacuo/blog-css/blob/main/renderer.js
+- https://github.com/yanhuacuo/blog-css/blob/main/renderer.js
 
 ``````
 function formatText(text) {
@@ -50,7 +50,7 @@ function formatText(text) {
 }
 ``````
 
-https://github.com/yanhuacuo/blog-css/blob/main/inline.js
+- https://github.com/yanhuacuo/blog-css/blob/main/inline.js
 ``````
 //  escape: /^\\([\\`*{}\[\]()#$+\-.!_>])/,
   escape: /^\\([`*\[\]()#$+\-.!_>])/,
