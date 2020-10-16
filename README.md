@@ -81,3 +81,23 @@ aplayer:
 highlight_shrink: true
 ---
 ``````
+
+# 依赖
+
+``````
+  "dependencies": {
+    "hexo": "^5.0.0",
+    "hexo-generator-archive": "^1.0.0",
+    "hexo-generator-category": "^1.0.0",
+    "hexo-generator-index": "^2.0.0",
+    "hexo-generator-search": "^2.4.1",
+    "hexo-generator-tag": "^1.0.0",
+    "hexo-renderer-ejs": "^1.0.0",
+    "hexo-renderer-kramed": "^0.1.4",
+    "hexo-renderer-mathjax": "^0.6.0",
+    "hexo-renderer-pug": "^1.0.0",
+    "hexo-renderer-stylus": "^2.0.1",
+    "hexo-server": "^2.0.0",
+    "hexo-wordcount": "^6.0.1"
+  }
+``````
