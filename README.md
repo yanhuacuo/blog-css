@@ -40,3 +40,23 @@ npm uninstall hexo-math --save
 npm install hexo-renderer-mathjax --save
 ``````
 
+https://github.com/yanhuacuo/blog-css/blob/main/renderer.js
+
+``````
+function formatText(text) {
+  // Fit kramed's rule: $$ + \1 + $$
+  // return text.replace(/`\$(.*?)\$`/g, '$$$$$1$$$$');
+  return text;
+}
+``````
+
+https://github.com/yanhuacuo/blog-css/blob/main/inline.js
+``````
+//  escape: /^\\([\\`*{}\[\]()#$+\-.!_>])/,
+  escape: /^\\([`*\[\]()#$+\-.!_>])/,
+  
+....
+
+//em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,
+em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,
+``````
