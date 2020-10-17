@@ -33,12 +33,16 @@ display: none !important;
   transform: translate(0, -50%);
 }
 
+#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post {
+    background: rgba(255,255,255,.2);
+}
+
 
 #pagination.pagination-post {
     margin: 2rem 0 !important;
 }
-#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_post>#post {
-    background: rgba(255,255,255,.3);
+#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_post>#post, .layout > div:first-child:not(.recent-posts) {
+    background: rgba(255,255,255,.2);
     background-image: initial;
     background-position-x: initial;
     background-position-y: initial;
@@ -48,10 +52,11 @@ display: none !important;
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-	background-color: rgba(255, 255, 255, 1.0); 
+	background-color: rgba(255, 255, 255, 0.15);  
 
 /*
 
+    background-color: rgba(255, 255, 255, 0.1);
     background-color: rgba(38, 227, 26, 0.15); 
 
 */
@@ -95,7 +100,7 @@ table {
 }
 
 .post_cover {
-    height: 102px;
+    height: 122px;
 	animation-duration: 4s;
     animation-timing-function: ease;
     animation-delay: 0s;
