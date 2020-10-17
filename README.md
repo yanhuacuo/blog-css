@@ -22,12 +22,12 @@ https://cdn.jsdelivr.net/gh/yanhuacuo/blog-css@1.0/font.css
 inject:
   head:
   # - <link rel="stylesheet" href="/xxx.css">
-  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yanhuacuo/blog-css@1.1/footer.min.css">
-  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yanhuacuo/blog-css@1.1/buttons.min.css">
-  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yanhuacuo/blog-css@1.1/plugins.min.css">
-  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yanhuacuo/blog-css@1.1/friend.min.css">
-  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yanhuacuo/blog-css@1.1/my.css">
-  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yanhuacuo/blog-css@1.1/font.css">  
+  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yanhuacuo/blog-css@1.2/footer.min.css">
+  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yanhuacuo/blog-css@1.2/buttons.min.css">
+  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yanhuacuo/blog-css@1.2/plugins.min.css">
+  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yanhuacuo/blog-css@1.2/friend.min.css">
+  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yanhuacuo/blog-css@1.2/my.css">
+  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yanhuacuo/blog-css@1.2/font.css">  
 ``````
 
 
