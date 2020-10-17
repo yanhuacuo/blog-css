@@ -87,6 +87,7 @@ highlight_shrink: true
 ``````
   "dependencies": {
     "hexo": "^5.0.0",
+    "hexo-deployer-git": "^2.1.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^2.0.0",
