@@ -61,26 +61,7 @@ function formatText(text) {
 em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,
 ``````
 
-# 表头
 
-``````
----
-title: Hello World
-tags: 旧事
-categories: 散文 
-date: 2020年10月17日
-updated: 2020年10月17日
-comments: true
-description: 
-keywords: 回忆
-top_img: /img/pic/05.jpg
-mathjax: false
-katex: false
-aside: false
-aplayer:
-highlight_shrink: true
----
-``````
 
 # 依赖
 
