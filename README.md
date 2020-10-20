@@ -102,3 +102,28 @@ highlight_shrink: true
     "hexo-wordcount": "^6.0.1"
   }
 ``````
+
+
+# 文章表头
+
+``````
+---
+title: 远方
+tags: 旧事
+categories: 散文 
+date: 2020年10月17日
+updated: 2020年10月17日
+comments: true
+description: 
+keywords: 回忆
+top_img: https://upimage.alexhchu.com/2020/10/17/6368b36b0e8dc.jpg
+mathjax: false
+katex: false
+aside: false
+aplayer:
+highlight_shrink: true
+---
+
+一直都没有从旧梦中醒来，总觉得这场假期会有尽头。
+![pic](https://upimage.alexhchu.com/2020/10/17/81c9b9b291f66.jpg)
+``````
