@@ -1,6 +1,6 @@
 @font-face {
     font-family: zgFont;
-    src: url("/font/98WB-0.woff") format("opentype");
+    src: url("https://cdn.jsdelivr.net/gh/yanhuacuo/blog-css@1.4/98WB-0.woff") format("opentype");
 }
 
 
