@@ -33,7 +33,8 @@ display: none !important;
   transform: translate(0, -50%);
 }
 
-#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post {
+
+#aside-content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post {
     background: rgba(255,255,255,.2);
 }
 
@@ -41,7 +42,7 @@ display: none !important;
 #pagination.pagination-post {
     margin: 2rem 0 !important;
 }
-#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_post>#post, .layout > div:first-child:not(.recent-posts) {
+#aside-content .card-widget, #recent-posts>.recent-post-item, .layout_post>#post, .layout > div:first-child:not(.recent-posts) {
     background: rgba(255,255,255,.2);
     background-image: initial;
     background-position-x: initial;
